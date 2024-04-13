@@ -1,0 +1,14 @@
+// Declaração das notas e pesos
+let n1 = 7; // nota 1
+let n2 = 8; // nota 2
+let n3 = 9; // nota 3
+
+let p1 = 0.3; // peso 1
+let p2 = 0.4; // peso 2
+let p3 = 0.3; // peso 3
+
+// Cálculo da média ponderada
+let media = (n1 * p1 + n2 * p2 + n3 * p3) / (p1 + p2 + p3);
+
+// Exibição da média ponderada no console
+console.log("A média ponderada é: " + media)
